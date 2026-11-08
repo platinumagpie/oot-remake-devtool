@@ -1,0 +1,15 @@
+# Names found by hand while researching (Nov 2026)
+DebugParam.IsForceComplete
+DebugParam.DebugReturnCamera
+DebugParam.IsKeepFormalFlag
+PlayerStatus.MP
+# Nov 7 (v0.5.8 flag log, Farore's Wind cast): the position-based map change
+UI_IsMPBeforeUse
+Sequence_IsWarpByFaroreWind
+Sequence_ReservedNextPosition
+Sequence_ReservedNextCancelSleepRot
+Sequence_BancChangeFadePattern
+Sequence_CancelSleepRot
+# Still unnamed after hashing ~600M candidates (v0.5.9): #19F26B6A (Int, mirrors PlayerStatus.MP) and
+# #F5F1954D (Int64, +60 per spell cast). Two hash hits were rejected as noise: 'Sequence_hrc.Before'
+# and 'Player.TargetConsumption_Consume' (random word combos; expected false positives at that volume).

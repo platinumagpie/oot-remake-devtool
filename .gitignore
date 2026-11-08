@@ -1,0 +1,35 @@
+# Internal working notes, design docs and the maintainers' test harness stay local, never on GitHub.
+docs/
+tests/
+
+# Never commit anything made from a game dump or the running game.
+# Each person's tool rebuilds these from their own dump (Session tab -> Setup).
+user/
+cache/
+__pycache__/
+*.pyc
+names.tsv
+names_user.tsv
+data/catalog_*.json
+data/camera_live_*.json
+data/name_lists/totk_names.txt
+docs/research/event_api.json
+docs/research/player_bridge_nodes.json
+
+# Game files and build output, in case anything lands here by accident
+*.zs
+*.sav
+*.nso
+*.nca
+*.nsp
+*.xci
+*.nup
+*.bin
+*.elf
+*.tgz
+*.zip
+main
+main.npdm
+prod.keys
+title.keys
+*keys*.txt
